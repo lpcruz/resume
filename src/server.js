@@ -6,7 +6,8 @@ const app = express();
 class Server {
   setUp() {
     return this
-      .init(8080)
+    /* eslint-disable no-undef */
+      .init(process.env.PORT || 8080)
       .start()
   }
 
