@@ -1,0 +1,30 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "code for laurence cruz's resume",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "lint:src": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lpcruz/resume.git"
+  },
+  "keywords": [
+    "resume",
+    "webpage"
+  ],
+  "author": "lcruz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lpcruz/resume/issues"
+  },
+  "homepage": "https://github.com/lpcruz/resume#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0"
+  }
+}
