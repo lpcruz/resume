@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
-    "lint:src": "eslint src/"
+    "lint:src": "eslint src/",
+    "test:cypress:chrome": "cypress run --browser chrome",
+    "test:cypress:chrome:ci": "start-server-and-test start http://localhost:8080 test:cypress:chrome"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint": "^7.1.0"
+    "cypress": "^4.7.0",
+    "eslint": "^7.1.0",
+    "start-server-and-test": "^1.11.0"
   }
 }
