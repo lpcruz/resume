@@ -35,7 +35,7 @@ describe('Anchorlinks', () => {
     });
   })
     
-  describe('#hobbies', () => {
+  describe('#Hobbies', () => {
     it('should render content after clicking', () => {
       cy.get('a[href="#hobbies"]').click();
       cy.get('#hobbies').should('be.visible');
