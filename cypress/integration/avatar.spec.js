@@ -8,6 +8,6 @@ describe('Avatar', () => {
   });
 
   it('should be visible on the page', () => {
-    cy.get('.img-profile[src="assets/img/avatar-round.png"]').should('be.visible');
+    cy.get('.img-profile[src="assets/img/avatar.png"]').should('be.visible');
   });
 });
